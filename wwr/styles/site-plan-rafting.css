@@ -170,37 +170,3 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
-content{
-  max-width: 1600px;
-  margin: 0 auto;
-}
-.button-box{
-  text-align: center;
-}
-main section{
-  text-align: center;
-}
-#background {
-  height: 725px;
-}
-.logo{
-  width: 80px;
-}
-.icon{
-  width: 80px;
-}
-#hero-img{
-  width: 100%;
-}
-.book, .join{
-  text-decoration: none;
-}
-footer a{
-  text-decoration: none;
-}
-footer p {
-  font-size: 1.2em;
-}   
-footer p a:hover {
-  text-decoration: underline;
-}    
