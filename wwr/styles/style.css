@@ -1,34 +1,89 @@
-content{
+/*
+Author: L. Barney
+Date: 10 October 2022
+Purpose: To add style to my White Water Rafting site
+*/
+
+#content{
     max-width: 1600px;
     margin: 0 auto;
   }
-.button-box{
+body {
+    background-color: #5da9e9; 
+}
+header {
+    background-color: #003f91;
+}
+nav a{
     text-align: center;
-  }
+    color: white;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: white;
+    color: #a60067;
+}
+.home-title{
+    color:white;
+}
+h4{
+    color: white;
+}
+#hero-msg h1, #hero-msg h4{
+    text-align: center;
+}
+  .button-box{
+    text-align: center;
+}
 main section{
     text-align: center;
-  }
+}
 #background {
     height: 725px;
-  }
+    background-color: #5da9e9;
+}
 .logo{
     width: 80px;
-  }
+}
 .icon{
     width: 80px;
-  }
+}
 #hero-img{
     width: 100%;
-  }
+}
 .book, .join{
     text-decoration: none;
-  }
+    background-color: #5da9e9;
+    color: white;
+}
+  .book:hover, .join:hover{
+    background-color: white;
+    color: #a60067;
+}
+footer{
+    background-color: #5da9e9;
+    color: white;
+}
 footer a{
     text-decoration: none;
-  }
+    color: white;
+}
+footer a:hover{
+    background-color: 5da9e9;
+    color: #a60067;
+}
 footer p {
     font-size: 1.2em;
-  }  
+}  
 footer p a:hover {
     text-decoration: underline;
-  }    
+}
+.msg{
+    background-color: #5da9e9;
+}
+.msg h2{
+    color: white;
+}
+.msg p{
+    color: white;
+}
