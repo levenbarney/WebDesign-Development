@@ -87,3 +87,7 @@ footer p a:hover {
 .msg p{
     color: white;
 }
+.join:hover{
+    background-color:#5da9e9;
+    text-decoration: underline;
+}
