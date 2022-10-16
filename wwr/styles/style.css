@@ -4,12 +4,22 @@ Date: 10 October 2022
 Purpose: To add style to my White Water Rafting site
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Ubuntu&display=swap');
+
+:root{
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Ubuntu', sans-serif;
+}
 #content{
     max-width: 1600px;
     margin: 0 auto;
   }
 body {
-    background-color: #5da9e9; 
+    background-color: #5da9e9;
+    font-family: 'Inconsolata', monospace;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: #003f91;
@@ -18,13 +28,20 @@ nav a{
     text-align: center;
     color: white;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover {
-    background-color: white;
-    color: #a60067;
+    background-color: sienna;
+    color: white;
 }
 .home-title{
     color:white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+h2{
+    margin: 0;
 }
 h4{
     color: white;
@@ -38,39 +55,77 @@ h4{
 main section{
     text-align: center;
 }
+main section img{
+    box-sizing: border-box;
+}
 #background {
     height: 725px;
     background-color: #5da9e9;
+}
+#logo_link{
+    padding-top: 5px;
 }
 .logo{
     width: 80px;
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
 }
 #hero-img{
     width: 100%;
 }
+.card-img{
+    border: 10px solid sienna;
+}
 .book, .join{
     text-decoration: none;
-    background-color: #5da9e9;
+    background-color: sienna;
     color: white;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
-    background-color: white;
-    color: #a60067;
+    background-color: sienna;
+    color: white;
+}
+.join:hover{
+    text-decoration: underline;
+}
+.msg{
+    background-color: #5da9e9;
+    line-height: 1.5em;
+    padding: 35px;
+}
+.msg h2{
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+.msg p{
+    color: white;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer{
     background-color: #5da9e9;
     color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a{
     text-decoration: none;
     color: white;
 }
 footer a:hover{
-    background-color: 5da9e9;
-    color: #a60067;
+    background-color: sienna;
+    color: white;
+    padding: 9px 10px;
+    border-radius: 5px;
 }
 footer p {
     font-size: 1.2em;
@@ -78,16 +133,6 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }
-.msg{
-    background-color: #5da9e9;
-}
-.msg h2{
-    color: white;
-}
-.msg p{
-    color: white;
-}
-.join:hover{
-    background-color:#5da9e9;
-    text-decoration: underline;
-}
+footer .social img{
+    padding-top: 15px;
+}   
