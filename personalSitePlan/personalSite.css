@@ -102,42 +102,10 @@ main section img{
     width: 80px;
     padding-top: 10px;
 }
-.rivers-card{
-    grid-column: 2/4;
-    grid-row: 2/3;
-}
-.camping-card{
-    grid-column: 5/7;
-    grid-row: 2/3;
-}
-.rapids-card{
-    grid-column: 8/10;
-    grid-row: 2/3;
-}
-.rivers-card, .camping-card, .rapids-card{
-    margin: 200px 0;
-}
 #hero-img{
     width: 100%;
 }
-.card-img{
-    border: 10px solid sienna;
-    transition: transform .5s;
-    box-shadow: 5px 5px 10px #6f7364;
-}
-.card-img:hover {
-    opacity: .6;
-    transform: scale(1.1);
-}
-.mountains{
-    grid-column: 2/7;
-    grid-row: 5/8;
-    box-shadow: 5px 5px 10px #6f7364;
-}
-.card-img, .mountains {
-    width: 100%;
-}
-.book, .join{
+.ContactUs{
     text-decoration: none;
     background-color: sienna;
     color: white;
@@ -146,12 +114,9 @@ main section img{
     margin-top: 50px;
     border-radius: 5px;
 }
-.book:hover, .join:hover{
+.ContactUs:hover{
     background-color: sienna;
     color: white;
-}
-.join:hover{
-    text-decoration: underline;
 }
 .msg{
     background-color: #5da9e9;
@@ -225,31 +190,22 @@ footer .social img{
         font-size: 25px;
         color: #6f7364;
     }
-    .rivers-card, .camping-card, .rapids-card { 
-        margin: 50px auto;
-        width: 60%;
-    }
     #ReservationMSG{
         color: white;
     }
     #background {
         display: none;
     }
-    .mountains, .msg {
-        width: 80%;
-        display: block;
-        margin: 0 auto;
-    }
     footer {
         margin-top: 25px;
     }
 
+    /*CSS for FAQ page*/
     #FAQs{
         color: white;
     }
-
+    }
 /*CSS for Calendar*/
-}
 * {box-sizing: border-box;}
 ul {list-style-type: none;}
 body {font-family: Verdana, sans-serif;}
