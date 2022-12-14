@@ -151,6 +151,12 @@ main section img{
     margin-right: 75px;
     margin-top: 20px;
 }
+#Gamers{
+    margin-top: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 0px;
+}
 .msg{
     background-color: #5da9e9;
     line-height: 1.5em;
